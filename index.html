@@ -1,0 +1,754 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>与争2014</title>
+
+<link rel="stylesheet" href="common2014.css">
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.css">
+
+<link href="http://cdn.bootcss.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
+<link href="http://cdn.bootcss.com/animate.css/3.1.0/animate.css" rel="stylesheet">
+
+<style>
+
+body{font-family: "SimSun";background: url(images/back.jpg) -0px -0px no-repeat #315ca0 fixed;color: #666;}
+a{color: #666;}
+h1,h2,h3{font-family: "Microsoft YaHei"}
+
+.navbar-brand{ width: 326px;}
+.navbar-brand img{ width: 100%;}
+.navbar-default{height: 100px;background:rgba(220,52,100,.2); border: none; 
+-webkit-box-shadow: 0 3px 12px #666;
+-moz-box-shadow: 3px 0 6px #000;
+box-shadow: 0 0px 12px #999;}
+
+.container {
+	height: 100%;
+padding-right: 0px;
+padding-left: 0px;
+margin-right: auto;
+margin-left: auto;
+}
+.navbar-nav{float: right;margin-top: 40px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	height: 60px;line-height: 60px;
+color: #fff;font-size: 22px;
+text-shadow: #7a2f6a 2px 1px 1px;
+font-family: "微软雅黑";
+background: url(images/nav_active.png) center 60px no-repeat;padding: 0 15px;transition: all 0.3s ease-in-out;
+-webkit-transition: all 0.3s ease-in-out;
+}
+.navbar-nav>li>a:hover{line-height: 50px;background-position: center bottom;color: #FF0!important}
+
+.banner img{margin: 0 auto;}
+.line1{ height: 4px;}
+.line1 img{width: 100%;height: 4px;display: block;}
+
+.box{background: #fff; /*min-height:200px;*/padding: 30px 10% 0;}
+#box_top{background: url(images/box1.png) -0px top repeat-x #fff;}
+.zhu img{width: 100%;display: block;}
+
+
+.busi>div{padding:0 10px;text-align: center;}
+.busi .item{
+	height: 270px;
+	text-align: center;margin: 0 auto;
+border: 2px #eaeaea solid;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+padding:30px 10px;
+
+transition: all 0.3s ease-in-out;
+}
+.busi i{
+	width: 114px;height: 114px;/*padding: 35px;*/font-size: 40px;line-height: 114px;
+margin: 0 auto;background: #aaa;-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+border: 3px #fff solid;
+/*box-shadow: 0 0 0 5px #d8e3f5 inset;*/
+background: #d41a70; color: #fff;transition: all 0.3s ease-in-out;
+}
+.busi .item:hover{background-color: #ffe3f0;border: 6px #d41a70 solid;padding:24px 10px;}
+.busi .item:hover i{color:#d41a70;background: #fff;
+ border: 6px #d41a70 solid;margin-bottom: 6px; }
+ .busi .item:hover h3{color:#d41a70;font-weight: bold;}
+
+.busi h3{font-size: 16px;text-align: center;color: #5d5d5d;line-height: 150%;}
+
+.tit{text-align: center;margin-bottom: 30px;}
+.tit h2{color: #d41a70;font-size: 37px;margin: 0 0 10px;}
+.tit_flag{background: #d41a70;color: #fff;font-size: 16px; line-height: 21px;height: 21px; width:200px;margin: 0 auto;position: relative;transition: all 0.3s ease-in-out;
+
+}
+.tit_flag:hover{ width: 500px;}
+
+.tit_flag:after{
+content:url(images/tit_after.png);
+position: absolute;right: -12px;top: 0;
+	}
+.tit_flag:before{
+content:url(images/tit_before.png);
+position: absolute;left: -12px;top: 0;
+	}
+	
+.tit2{ height: 70px;}
+.tit2 h2{color: #d41a70;font-size: 30px;margin: 0 0 10px;}
+.tit2 .sub{color: #fff;font-size: 16px; line-height: 21px;height: 21px;width: 97%;background: #d41a70;position: relative;}
+.tit2 .sub:after{
+	content:url(images/tit_after.png);
+	position: absolute;right: -12px;top: 0;}
+.tit2 .sub .en{float: left;padding-left: 5px;}
+.tit2 .sub a.more{float: right;color: #fff;}
+
+.group>div:fist-child .item{padding-right: 10%;}
+.group>div:last-child .item{padding-left: 10%;}
+
+.slide_tab{position: relative;margin-bottom: 10px;}
+.slide_tab .bd ul{padding: 0;}
+.slide_tab .bd .focus{float: left; width: 30%;}
+.slide_tab .bd .txt{font-size: 12px;float: right; width: 66%; line-height: 180%; overflow: hidden;height: 90px;overflow: hidden;}
+.slide_tab .bd .txt h2{font-size: 14px;margin: 0;margin-bottom: 10px;padding: 0;width: 270px;overflow: hidden; height: 1em;}
+.slide_tab .bd .txt h2 a{color: #000;}
+.slide_tab .bd .txt p{ }
+
+.slide_tab .hd {position: absolute;right: 0;top: 110px;}
+.slide_tab .hd li{ width: 8px;height: 8px;background: #aaa;margin-right: 5px;float: left; text-indent:-9999px;-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;}
+.slide_tab .hd li.on{background: #F30;}
+
+
+.list_fl_fr{ padding: 0px;}
+.list_fl_fr li { text-align:left;line-height:160%; position:relative; padding:3px 0 3px 0px;margin-bottom: 6px; border-bottom: 1px #ddd dotted; height: 30px;  }
+.list_fl_fr li a i{ color: #d41a70;margin-left: 3px;display: inline; font-style:normal; font-size: 50%; margin-left: 2px; }
+.list_fl_fr li a{ width:80%; display:block; text-overflow:ellipsis;overflow:hidden; white-space:nowrap; }
+.list_fl_fr li a:hover{ text-decoration: none;}
+.list_fl_fr li span{font-size: 60%;position:absolute; right:0px; top:0px; color:#aaa}
+
+.list_fl_fr li:hover{background: #efefef;border: none;}
+
+.contact_icons>div{padding:0 5px;text-align: center;}
+.contact_icons .item{
+	height: 220px;
+	text-align: center;margin: 0 auto;
+padding:30px 10px;
+
+transition: all 0.3s ease-in-out;
+}
+.contact_icons i{
+	width: 90px;height: 90px;font-size: 30px;line-height: 84px;
+margin: 0 auto;background: #aaa;-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+border: 3px #fff solid;
+/*box-shadow: 0 0 0 5px #d8e3f5 inset;*/
+background: #d41a70; color: #fff;transition: all 0.3s ease-in-out;
+}
+.contact_icons .item:hover{background-color: #ffe3f0;border: 4px #d41a70 solid;padding:24px 10px;}
+.contact_icons .item a:hover{text-decoration: none;}
+.contact_icons .item:hover i{color:#d41a70;background: #fff;
+ border: 6px #d41a70 solid;margin-bottom: 6px; }
+ .contact_icons .item:hover h3{color:#d41a70;font-weight: bold;}
+
+.contact_icons h3{font-size: 16px;text-align: center;color: #5d5d5d;line-height: 150%;}
+
+.yz88{margin: 0 auto;width: 70%;text-align: center;}
+
+/*.yz88 h2{font-size: 36px;line-height: 150%;color:#d41a70}*/
+.yz88 h3{font-size: 19px;line-height: 180%;color:#d41a70}
+.round{ width: 280px;height: 280px;background: #fff;-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;margin: 0 auto;
+transition: all 0.3s ease-in-out;border: 3px #d41a70 solid;
+}
+.round:hover{background:#d41a70 ;border: 3px #fff solid;}
+.yz88 .round img{width: 180px;margin: 50px auto;transition: all 0.3s ease-in-out;}
+.yz88 .round:hover img{-moz-transform:scale(1.2,1.2);  
+  -webkit-transform:scale(1.2,1.2);  
+  -o-transform:scale(1.2,1.2); }
+
+
+.box_bg{background: url(images/bg1.jpg) -0px bottom no-repeat #fff; -webkit-background-size:cover;
+background-size:cover ;padding: 0 10%;position: relative;overflow: hidden;}
+.box_bg:before{
+content:"";
+position: absolute;left: 0px;top: 0;
+background: url(images/mask_top.png) -0px center repeat-x;
+width: 100%;height: 69px;
+}
+.box_bg:after{
+content:"";
+position: absolute;left: 0px;bottom: 0px;
+background: url(images/mask_foot.png) -0px center repeat-x;
+width: 100%;height: 69px;
+}
+
+.case_list{padding: 0;}
+.case_list li{width: 25%;}
+.case_list li.wwww{ width: 50%;}
+.case_list li img{width: 100%;}
+.case_list li a{position: relative;}
+.case_list li a h3,.case_list li a .date{display: none;position: absolute;z-index: 99;top: 0;left: 0;}
+.case_list li a h3{font-size: 16px;}
+
+</style>
+
+
+
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="http://cdn.bootcss.com/stellar.js/0.6.2/jquery.stellar.min.js"></script>
+<script src="js/jquery.SuperSlide.2.1.1.js"></script>	
+
+<!--瀑布流-->
+<script src="http://cdn.bootcss.com/masonry/3.1.5/masonry.pkgd.min.js"></script>
+
+<script>
+$(function(){
+	jQuery(".slide_tab").slide({titCell:".hd ul",mainCell:".bd ul",autoPlay:true,autoPage:true});
+	
+	//parallaax              
+     jQuery.stellar({horizontalScrolling: false,verticalOffset: 0});
+	
+	//瀑布流
+	$('.case_list').masonry({
+	  /*columnWidth: 100,*/
+	  itemSelector: '.case_list li'
+	});
+	
+});
+	
+	
+</script>
+</head>
+
+<body>
+
+<div class="navbar navbar-default " role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="Index.asp" id="a1">首页</a></li>
+            <li><a href="About.asp" id="a2">关于</a></li>
+            <li><a href="Notes.asp" id="a3">记事</a></li>
+            <li><a href="Product.asp" id="a4">产品</a></li>
+            <li><a href="Case.asp" id="a5">案例</a></li>
+            <li><a href="Guest.asp" id="a6">客户</a></li>
+            <li><a href="Service.asp" id="a7">服务</a></li>
+        </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    
+<div class="container-fluid" style="width: 90%;">
+	<div class="banner text-center"><img src="images/banner4.png"></div>
+    <div class="line1"><img src="images/line1.png"></div>
+    
+    <div class="box" id="box_top">
+    	<div class="tit">
+        	<h2>主营业务</h2>
+            <div class="tit_flag">main business</div>
+        </div>
+        
+        <!--主营业务三图标-->
+        <div class="row busi">
+        	<div class="col-md-4"><div class="item">
+        		<i class="fa fa-magic"></i>
+        		            <h3>网页设计 / 前端 / 界面设计<br>
+        		              高端企业站 / 动画型网站<br>
+       		                手机站 / 微信站 / IPAD演示 </h3>
+       	  </div></div>
+            <div class="col-md-4"><div class="item">
+            	<i class="fa fa-desktop"></i>
+            	<h3>响应式设计 / 全浏览器兼容<br>
+            	  Jquery / Bootstrap技术<br>
+            	  HTML5+CSS3技术<br>
+           	  </h3>
+          </div></div>
+            <div class="col-md-4"><div class="item">
+            	<i class="fa fa-language"></i>
+            	<h3>多语种 / 国际型网站<br>
+            	  域名 / 服务器<br>
+            	网站运营 / 网络营销</h3>
+          </div></div>
+        </div>
+    </div>
+    
+    <div class="zhu"><img src="images/zhu.png"></div>
+    <div class="box">
+    <div class="row group">
+        	<div class="col-md-6">
+            <div class="item">
+            
+            	<!--标题-->
+       		  <div class="tit2">
+                	<h2 class="animated bounceInUp">最新记事</h2>
+                    <div class="sub animated bounceInDown">
+                    	<div class="en">Latest news</div>
+                    	<a href="#" class="more">更多</a>
+                    </div>
+                </div>
+                
+                <!--滚动块-->
+                <div class="cl"></div>
+              <div class="slide_tab clearfix">
+                	<div class="bd">
+                    	<ul>
+                    		<li><img src="images/t1.jpg" class="focus">
+                    		<div class="txt">
+                            <h2><a href="show.htm">与长沙筑璟台装饰设计李总合影</a></h2>
+                    			<p>这是一个大型企业，人员管理层级比较多，网站的使用者（各部门）、执行者（商务经理）、审批者（上层领导）沟通不是很多。具体工作都由商务经理完成，上层领导只看最终完成的结果，对执行过程中的讨论、分析，并不知情。商务经理也换过几任，前途与继任者中间，应该没有足够的交流。</p>
+                    		</div>
+                            </li>
+                            
+                            <li><img src="images/t2.jpg" class="focus">
+                    		<div class="txt">
+                            <h2><a href="#">很多具体工作都由商务经理完成上层领导只看最终完成的结果</a></h2>
+                    			<p>这是一个大型企业，人员管理层级比较多，网站的使用者（各部门）、执行者（商务经理）、审批者（上层领导）沟通不是很多。具体工作都由商务经理完成，上层领导只看最终完成的结果，对执行过程中的讨论、分析，并不知情。商务经理也换过几任，前途与继任者中间，应该没有足够的交流。</p>
+                    		</div>
+                            </li>
+                            
+                    	</ul>
+                    </div>
+                    
+                    <div class="hd">
+                    	<ul></ul>
+                    </div>
+                    </div>
+                    
+              <div class="cl h20"></div>
+                    <!--文字列表-->
+                    <ul class="list_fl_fr">
+        <li><a href="show.htm">寻求强强合作 打造高端农业<i>| 查看1221次</i></a><span>2007-10-9</span></li>
+        <li><a href="show.htm" >置业公司组织全体员工赴长沙考察楼盘建组织全体员工赴长沙考察楼盘建设<i>| 查看1221次</i></a><span>2007-10-9</span></li>
+        <li><a href="show.htm"> 集团公司开展办公室系统培训<i>| 查看1221次</i></a><span>2007-10-9</span></li>
+        <li><a href="show.htm"> 召开党的群众路线教育实践活动动员大会<i>| 查看1221次</i></a><span>2007-10-9</span></li>
+        <li><a href="show.htm"> 集团公司召开2014年度工作务虚会议<i>| 查看1221次</i></a><span>2007-10-9</span></li>
+        <li><a href="show.htm"> 稀土公司组织召开2014年中层管理人员竞聘会<i>| 查看1221次</i></a><span>2007-10-9</span></li>
+        <li><a href="show.htm"> 长郡中学与云龙示范区就合作办学事宜<i>| 查看1221次</i></a><span>2007-10-9</span></li>
+      </ul>
+                </div>
+                
+                
+       	  </div>
+            
+            <div class="col-md-6">
+            <div class="item">
+        		<div class="tit2">
+                	<h2 class="animated bounceInUp">客户交流</h2>
+                    <div class="sub animated bounceInDown">
+                    	<div class="en">Contact & buy</div>
+                    	<a href="#" class="more">更多</a>
+                    </div>
+                </div>
+                
+                <!--滚动块-->
+                <div class="cl"></div>
+              <div class="slide_tab clearfix">
+                	<div class="bd">
+                    	<ul>
+                    		<li><img src="images/t1.jpg" class="focus">
+                    		<div class="txt">
+                            <h2><a href="show.htm">与长沙筑璟台装饰设计李总合影</a></h2>
+                    			<p>这是一个大型企业，人员管理层级比较多，网站的使用者（各部门）、执行者（商务经理）、审批者（上层领导）沟通不是很多。具体工作都由商务经理完成，上层领导只看最终完成的结果，对执行过程中的讨论、分析，并不知情。商务经理也换过几任，前途与继任者中间，应该没有足够的交流。</p>
+                    		</div>
+                            </li>
+                            
+                            <li><img src="images/t2.jpg" class="focus">
+                    		<div class="txt">
+                            <h2><a href="#">很多具体工作都由商务经理完成上层领导只看最终完成的结果</a></h2>
+                    			<p>这是一个大型企业，人员管理层级比较多，网站的使用者（各部门）、执行者（商务经理）、审批者（上层领导）沟通不是很多。具体工作都由商务经理完成，上层领导只看最终完成的结果，对执行过程中的讨论、分析，并不知情。商务经理也换过几任，前途与继任者中间，应该没有足够的交流。</p>
+                    		</div>
+                            </li>
+                            
+                    	</ul>
+                    </div>
+                    
+                    <div class="hd">
+                    	<ul></ul>
+                    </div>
+                    </div>
+                    
+              <div class="cl h20"></div>
+                    <!--文字列表-->
+                    <ul class="list_fl_fr">
+        <li><a href="show.htm">寻求强强合作 打造高端农业</a><span>2007-10-9</span></li>
+        <li><a href="show.htm" >置业公司组织全体员工赴长沙考察楼盘建组织全体员工赴长沙考察楼盘建设</a><span>2007-10-9</span></li>
+        <li><a href="show.htm"> 集团公司开展办公室系统培训</a><span>2007-10-9</span></li>
+        <li><a href="show.htm"> 召开党的群众路线教育实践活动动员大会</a><span>2007-10-9</span></li>
+        <li><a href="show.htm"> 集团公司召开2014年度工作务虚会议</a><span>2007-10-9</span></li>
+        <li><a href="show.htm"> 稀土公司组织召开2014年中层管理人员竞聘会</a><span>2007-10-9</span></li>
+        <li><a href="show.htm"> 长郡中学与云龙示范区就合作办学事宜</a><span>2007-10-9</span></li>
+      </ul>
+       	  </div></div>
+        </div>
+    
+    </div>
+    <div class="zhu"><img src="images/zhu.png"></div>
+    
+    <!--联系方式-->
+    <div class="box box_bg" data-stellar-background-ratio="0.5">
+    <div class="h20"></div><div class="h20"></div>
+        <div class="tit">
+                <h2>联系 / 订阅</h2>
+                <div class="tit_flag">Contact & Subscribe</div>
+      </div>
+        
+        <!--联系方式4图标-->
+        <div class="row contact_icons">
+        	<div class="col-md-3"><div class="item">
+        		<i class="fa fa-qq"></i>
+        		            <h3>QQ<br>
+        		              258754</h3>
+       	  </div></div>
+            <div class="col-md-3"><div class="item">
+            	<i class="fa fa-mobile" style="font-size: 45px;"></i>
+            	<h3>手机 Mobile <br>
+18975141930
+           	  </h3>
+          </div></div>
+            <div class="col-md-3"><div class="item">
+            	<i class="fa fa-envelope"></i>
+            	<h3>邮箱 Email <br>
+dudu@258754.cn</h3>
+          </div></div>
+          
+          <div class="col-md-3"><div class="item">
+            	<a href="http://www.mikecrm.com/f.php?t=ZCaP5d" target="_blank"><i class="fa fa-pencil-square-o"></i>
+            		<h3>点击这里马上留言<br>A message immediately</h3></a>
+          </div></div>
+          
+        </div>
+        
+        <div class="cl h20"></div><div class="h20"></div>
+        <div class="item yz88">
+            	<div class="round">
+            		<img src="images/yz88.jpg">
+            	</div>
+                <div class="h20"></div>
+            	<h2 class="tit_flag">微信公众号：csyz88</h2>
+                <h3>
+                够俗气！够八卦！有内幕！<br>关注长沙本土网建、设计、前端、企业信息化、网络营销
+                </h3>
+          </div>
+          <div class="h20"></div><div class="h20"></div>
+    
+    </div>
+    
+    <div class="zhu"><img src="images/zhu.png"></div>
+    <div class="box clearfix" style="padding: 30px 5%;">
+    	<ul class="case_list">
+          <li>
+            <a href="http://www.70oans.com" target="_blank"><img src="images/case/70.jpg" alt="70oans法国碧欧法化妆品">
+              <h3>70oans法国碧欧法化妆品</h3>
+            
+              
+              <div class="date">2014-07-10</div></a>
+            </li>
+            
+          <li>
+            <a href="CaseShow.asp?id=211" target="_blank"><img src="images/case/ygcw.jpg" alt="某省军区财务公开网[内网]">
+              <h3>某省军区财务公开网[内网]</h3>
+            
+              
+              <div class="date">2014-04-16</div></a>
+            </li>
+            
+          <li>
+            <a href="http://www.cardiothorac.com" target="_blank"><img src="images/case/xxwk.jpg" alt="湖南省人民医院心胸外科">
+              <h3>湖南省人民医院心胸外科</h3>
+            
+              
+              <div class="date">2014-04-13</div></a>
+            </li>
+            
+            <li>
+            <a href="http://www.hnmsj.com" target="_blank"><img src="images/case/hnmsj.jpg" alt="梦工场商业设计机构">
+              <h3>梦工场商业设计机构[主机及编程服务]</h3>
+            
+              
+              <div class="date">2014-04-5</div></a>
+            </li>
+            
+          <li class="wwww">
+            
+            
+            <a href="http://www.zidooo.net" target="_blank"><img src="images/case/zidooo.jpg" alt="枝道木工">
+              <h3>枝道木工</h3>
+            
+              
+              <div class="date">2014-03-12</div></a>
+            </li>
+            
+            <li>
+            
+            <a href="http://www.hnjxh.com" target="_blank"><img src="images/case/hnjxh.jpg" alt="湖南省机械化施工公司">
+              <h3>湖南省机械化施工公司</h3>
+            
+              
+              <div class="date">2014-03-11</div></a>
+            </li>
+            
+            
+          <li>
+            
+            <a href="http://www.cectic.com" target="_blank"><img src="images/case/cectic.jpg" alt="长沙欧亚中意贸易">
+              <h3>长沙欧亚中意贸易[中/英/意三语]</h3>
+            
+              
+              <div class="date">2014-02-08</div></a>
+            </li>
+            
+          <li>
+            
+            <a href="http://www.qianqiutv.com" target="_blank"><img src="images/case/qianqiu.jpg" alt="湖南千丘影视传媒">
+              <h3>湖南千丘影视传媒</h3>
+            
+              
+              <div class="date">2014-01-10</div></a>
+            </li>
+            
+          <li>
+            
+            <a href="http://www.hnbzdy.com" target="_blank"><img src="images/case/hnbzdy.jpg" alt="长沙包装打样">
+              <h3>长沙万博包装打样有限公司</h3>
+            
+              
+              <div class="date">2013-09-03</div></a>
+            </li>
+            
+            <li>
+            
+            <a href="http://www.hnsunlife.com" target="_blank"><img src="images/case/sunlife.jpg" alt="湖南生命阳光健康管理咨询服务有限公司">
+              <h3>湖南生命阳光健康管理咨询服务</h3>
+            
+              
+              <div class="date">2013-08-05</div></a>
+            </li>
+            
+            <li>
+            
+            <a href="http://www.csprss.com" target="_blank"><img src="images/case/csprss.jpg" alt="普瑞赛思新材料">
+              <h3>普瑞赛思新材料科技</h3>
+            
+              
+              <div class="date">2013-06-25</div></a>
+            </li>
+            
+            <li>
+            
+            <a href="http://www.artshn.com" target="_blank"><img src="images/case/artshn.jpg" alt="湖南师范大学美术学院培训中心">
+              <h3>湖南师大美院培训中心</h3>
+            
+              
+              <div class="date">2013-06-28</div></a>
+            </li>
+            
+          <li>
+            
+            <a href="http://www.bxshoe.com" target="_blank"><img src="images/case/baixing.jpg" alt="湖南百幸鞋业有限公司">
+              <h3>湖南百幸鞋业有限公司</h3>
+            
+              
+              <div class="date">2013-05-06</div></a>
+            </li>
+            
+            <li>
+            
+            <a href="http://www.yuan-miao.com" target="_blank"><img src="images/case/yuanmiao.jpg" alt="原妙生物科技">
+              <h3>原妙生物科技</h3>
+            
+              
+              <div class="date">2013-04-15</div></a>
+            </li>
+            
+            <li>
+            
+            <a href="http://www.chinafuyao.com" target="_blank"><img src="images/case/fuyao.gif" alt="长沙府窑陶瓷艺术有限公司">
+              <h3>长沙府窑陶瓷艺术</h3>
+            
+              
+              <div class="date">2013-03-22</div></a>
+            </li>
+            
+            <li class="wwww">
+            
+            <a href="http://www.hnfzd.com/topic/Italy.htm" target="_blank"><img src="images/case/italy.jpg" alt="留学意大利专题">
+              <h3>帆之都留学意大利专题页</h3>
+              
+              
+              <div class="date">2013-03-21</div></a>
+            </li>
+            
+            <li>
+            
+            <a href="http://www.huayinyw.com" target="_blank"><img src="images/case/huayin.jpg" alt="长沙华银印务">
+              <h3>长沙华银印务有限公司</h3>
+              
+              
+              <div class="date">2013-03-20</div></a>
+            </li>
+            
+            <li>
+            
+            <a href="http://www.alovenet.com" target="_blank">
+            <img src="images/case/sdax.jpg" alt="邵东爱心网">
+              <h3>邵东爱心网</h3>
+              
+              
+              <div class="date">2013-02-24</div></a>
+            </li>
+            <li>
+            
+            <a href="http://www.honestlogistics.com" target="_blank">
+            <img src="images/case/honest.jpg" alt="湖南厚德物流有限公司">
+              <h3>湖南厚德物流有限公司</h3>
+              
+              
+              <div class="date">2012-11-20</div></a>
+            </li>
+            <li>
+            
+            <a href="http://www.onewera.com" target="_blank">
+            <img src="images/case/onewera.jpg" alt="New Era Electronic Technology CO.,LTD.">
+              <h3>New Era Electronic Technology CO.,LTD.</h3>
+              
+              
+              <div class="date">2012-11-6</div></a>
+            </li>
+            
+            
+            
+            <li>
+            
+            <a href="http://www.wmint.com.cn" target="_blank">
+            <img src="images/case/zp.jpg" alt="智品贸易有限公司">
+              <h3>智品贸易有限公司</h3>
+              
+              
+              <div class="date">2012-8-6</div></a>
+            </li>
+            
+            <li>
+              
+              <a href="http://www.hnmrw.com.cn/" target="_blank"><img src="images/case/hnmr.jpg" alt="湖南名人网">
+                <h3>湖南名人网</h3>
+              
+              <div class="date">2012-8-24</div></a>
+            </li>
+                          
+            
+            <li>
+              
+              <a href="http://www.bang-rui.com/" target="_blank"><img src="images/case/bangrui.jpg" alt="长沙邦睿品牌管理有限公司">
+                <h3>长沙邦睿品牌管理有限公司</h3>
+              
+              <div class="date">2011-6</div></a>
+            </li>
+            <li class="wwww"><a href="http://www.csgorun.com" target="_blank"><img src="images/case/gorun.jpg" alt="国润工业技术有限公司">
+              <h3>国润工业技术有限公司</h3>
+            
+            <div class="date">2012-3-6</div></a></li>
+              
+            <li>
+            
+            <a href="http://www.godnfloor.com" target="_blank"><img src="images/case/godn.jpg" alt="固顿地板">
+              <h3>固顿地板</h3>
+            
+              <div class="date">2012-8-20</div></a></li>
+              
+            
+            <li><a href="http://www.hnjqgy.com/" target="_blank"><img src="images/case/hnjqjd.jpg" alt="湖南健全精雕工艺">
+              <h3>湖南健全精雕工艺</h3>
+            
+              <div class="date">2012-6-20</div></a></li>
+
+ <li><a href="http://www.zgzzjy.com"><img src="images/case/zgzzjy.jpg" alt="">
+            <h3>中国自主教育网</h3>
+              
+              <div class="date">2012-9-1</div></a>
+              
+               </li>
+            <li><a href="http://www.qinermei.com"><img src="images/case/qem.jpg" alt="">
+              <h3>深圳市沁尔美净水科技有限公司</h3>
+            
+              
+              <div class="date">2012-4-10</div></a></li>
+              <li><a href="http://www.hnecu.com/" target="_blank"><img src="images/case/hnecu.jpg" alt="湖南网商会">
+              <h3>湖南网商会</h3>
+            
+              <div class="date">2011-11-3</div></a></li>
+            <li><a href="http://dl.258754.cn" target="_blank"><img src="images/case/dl.jpg" alt="湖南省电力公司内部培训网">
+                <h3>湖南省电力公司内部培训网</h3>
+                
+                <div class="date">2011-11-29</div></a>
+            </li>
+            <li><a href="http://www.xinqihk.com" target="_blank"><img src="images/case/xinqi.jpg" alt="">
+              <h3>新琪食品（香港）有限公司</h3>
+            
+              <div class="date">2011-6-14</div></a></li>
+            <li><a href="http://www.hnzhixin.net" target="_blank"><img src="images/case/zhixin.jpg" alt="湖南致信信息工程监理">
+              <h3> 湖南致信信息工程监理有限公司 </h3>
+            
+              <div class="date">2011-5-13</div></a></li>
+            
+            <li><a href="http://www.allpos.cn"><img src="images/case/allpos.jpg" alt="" width="257" height="173">
+              <h3>长沙澳博网络科技[网站/界面/印刷品]</h3>
+            
+              <div class="date">2011-4-24</div></a></li>
+            <li><a href="InfoShow.asp?id=78"><img src="images/case/qs.jpg" alt="" width="257" height="173">
+              <h3>千视电子[标志/名片/网站/程序界面]</h3>
+            
+              <div class="date">2010-4-24</div></a></li>
+            
+            <li><a href="http://www.chinaipmagazine.com/" target="_blank"><img src="images/case/p6.jpg" alt="中国知识产权杂志">
+              <h3>中国知识产权杂志(中英文站)</h3>
+            
+              <div class="date">2009-4-23</div></a></li>
+            <li>
+              
+              <a href="http://www.hnwesternunion.com" target="_blank"><img src="images/case/w4.jpg" alt="湖南西联捷运国际货运代理有限公司(中英文站)">
+                <h3>湖南西联捷运国际货运代理有限公司(中英文站)</h3>
+              
+              <div class="date">2008-7-22</div></a>
+            </li>
+            
+            <li>
+              
+              <a href="http://www.lyrun.com/" target="_blank"><img src="images/case/w2.jpg" alt="长沙力元新材料有限责任公司(中英文站)">
+                <h3>长沙力元新材料有限责任公司(中英文站)</h3>
+              
+              <div class="date">2009-2-23</div></a>
+            </li>
+            <li>
+              
+              <a href="http://www.cpeve.com/" target="_blank"><img src="images/case/w6.jpg" alt="湖南科霸汽车动力电池有限公司(中英文站)">
+                <h3>湖南科霸汽车动力电池有限公司(中英文站)</h3>
+              
+              <div class="date">2009-2-23</div></a>
+            </li>
+            
+            <li><a href="http://www.jyjd.com" target="_blank"><img src="images/case/p11.jpg" alt="湖南中钢衡重设备">
+              <h3>湖南中钢衡重设备(中英文站)</h3>
+            
+              <div class="date">2008-8-6</div></a></li>
+              
+          </ul>
+    </div>
+</div>
+</body>
+</html>
