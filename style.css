@@ -15,30 +15,32 @@ Version: 1.0
 ------------------------------------------------------------
 */
 
-#name {
+/* #name {
 	font-size:42px !important;
 	padding-top:0px !important;
 	height:77px;
-}
+} */
 
 /*
 ------------------------------------------------------------
 |                         Site styles         
 ------------------------------------------------------------
 */
-
+html{font-si: 90%;}
+h2{font-size: 1.7rem;}
 body { 
 	font-family:微软雅黑,宋体, "Myriad Pro", "Myriad Web", Myriad, Frutiger, Calibri, sans-serif; 
 	height:100%;
+	line-height: 1.6rem;
 	margin:0px; 
 	padding:0px; 
 	background: #0C3869 url(./themes/blue.jpg) no-repeat top center fixed;
 	color:#fff;
-	font-size: 14px;
 }
 
 #container {
-	width:1160px;
+	width:95%;
+	max-width: 1200px;
 	margin:0 auto;
 	hieght:100%;
 }
@@ -51,10 +53,6 @@ a:link,
 a:visited {
 	color:#eee;
 	text-decoration:none;
-}
-
-a:hover {
-	border-bottom:1px dotted #eee;
 }
 
 .clear {
@@ -71,7 +69,7 @@ a:hover {
 
 #header {	
 	z-index:103;
-	height:150px;
+	position: relative;
 }
 
 #name,
@@ -85,10 +83,9 @@ a:hover {
 }
 
 #name {
-	font-size:50px;
+	font-size:3em; height: 5rem; line-height: 4rem; display: inline-block;
 	font-weight: normal;
-	margin:30px 0px 0px 0px;
-	float:left;
+	margin:0px 0px 0px 0px;
 	overflow:hidden;
 	padding-bottom:10px;
 	background: url(./images/horizontal.gif) no-repeat center bottom;
@@ -99,7 +96,7 @@ a:hover {
 }
 
 #buttons {
-	float:right;
+	position: absolute; right: 0px; top: 10px;
 	overflow:hidden;
 }
 
@@ -107,13 +104,12 @@ a:hover {
 	margin:0px; 
 	padding:0px;
 	list-style:none;
-	margin-top:42px;
 }
 
 .button {
-	font-size:18px;
+	font-size:1.2em;
 	float:left;
-	margin-right:15px;
+	margin-left:30px;
 	position:relative;
 	overflow:hidden;
 	z-index:105;
@@ -121,7 +117,6 @@ a:hover {
 
 .button a {
 	display:block;
-	padding:6px 12px;
 	position:relative;
 	overflow:hidden;
 	z-index:105;	
@@ -191,7 +186,7 @@ a:hover {
 
 #main {
 	clear:both;
-	width:850px;
+	width:70%;
 	height:100%;
 	float:left;
 	z-index:98;
@@ -236,7 +231,6 @@ h2 small {
 	color:#DFDFDF;
 	padding-left:10px;
 	text-align:justify;
-	line-height:21px;
 }
 
 /*
@@ -246,7 +240,7 @@ h2 small {
 */
 
 #sidebar {
-	width:280px;
+	width:28%;
 	float:right;
 	z-index:99;
 }
@@ -293,7 +287,7 @@ h2 small {
 
 .item_wrap {
 	position:relative;
-	padding:0px 30px 30px 30px;
+	padding:20px 30px;
 	overflow:hidden;
 	margin:0px 0px 30px 0px;
 }
@@ -329,7 +323,96 @@ h2 small {
 	display:none;
 }
 
-.tt{width: 100%;margin-bottom: 20px;}
-.tt caption{font-size: 16px; padding-bottom: 5px; margin-bottom: 0px; text-align: left; border-bottom: 1px rgba(255,255,255,0.3) solid;}
-.tt th,.tt td{border-bottom: 1px rgba(255,255,255,0.3) dotted; padding: 5px 0;}
-.tt th{white-space: nowrap; font-weight: normal; text-align: left;padding-right: 10px; }
+.tt{width: 100%;margin-bottom: 40px;}
+.tt .tit{font-size: 1.5rem; padding-bottom: 12px; margin-bottom: 0px; text-align: left; border-bottom: 1px rgba(255,255,255,0.3) solid;}
+.tt .tit i{font-size: 1.5rem;}
+.tt li h3,.tt li a{font-weight: normal;}
+.tt li{list-style: none; position: relative;border-bottom: 1px rgba(255,255,255,0.3) dotted; padding: 0.8rem 0;
+-webkit-transition: all .3s; -o-transition: all .3s; transition: all .3s;
+ }
+.tt li:hover{background-color: #1b4b83;}
+.tt li a{position: absolute; right: 0.3rem; bottom: 0.95rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width: 100%; display: inline-block;  }
+.tt li i{font-size: 1.3rem;}
+.tt li h3{font-weight: normal; text-align: left;margin: 0; font-size: 1rem; padding-left: .3rem;}
+
+
+@font-face {font-family: "iconfont";
+  src: url('font/iconfont.eot?t=1475407180'); /* IE9*/
+  src: url('font/iconfont.eot?t=1475407180#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('font/iconfont.woff?t=1475407180') format('woff'), /* chrome, firefox */
+  url('font/iconfont.ttf?t=1475407180') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('font/iconfont.svg?t=1475407180#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-phone:before { content: "\e600"; }
+.icon-erweima:before { content: "\e601"; }
+.icon-qq:before { content: "\e602"; }
+.icon-lianjie:before { content: "\e60a"; }
+.icon-wujiaoxing:before { content: "\e609"; }
+.icon-qq1:before { content: "\e603"; }
+.icon-boke4:before { content: "\e604"; }
+.icon-fenlei:before { content: "\e605"; }
+.icon-shuxingjiegou:before { content: "\e606"; }
+.icon-25weiwangzhan:before { content: "\e607"; }
+
+
+
+@media screen and (max-width: 800px) {
+	.tt li a{ }
+
+	html{font-size: 60%;}
+	#buttons {
+	    position: static;
+	    right: 0px;
+	    top: 0px;
+	    overflow: hidden;
+	    padding-bottom: 10px;
+	}
+
+	.button {
+	    margin-left: 0px;
+	    margin-right: 20px;
+	}
+
+    #main {
+        width: 100%;
+        float:none;
+    }
+
+    #sidebar {
+        width: 100%;
+        float:none;
+    }
+
+    .detail {
+		font-size: 1.2rem;
+        background:none;
+        padding-left: 0px;
+    }
+
+    #name {
+        font-size: 30px !important;
+        height: auto;
+        background: none;
+        margin-bottom: 20px;
+    }
+	
+	.header {
+	    margin: 10px 0px;
+	}
+
+    .item_wrap {
+        padding: 10px 20px;
+    }
+
+    #main .item_wrap{padding-left: 10px;}
+}
