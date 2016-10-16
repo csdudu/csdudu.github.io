@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0" />
+    <title>图表demo</title>
+    <style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    ul {
+        padding: 20px;
+    }
+    
+    li {
+        list-style: none;
+        margin-bottom: 30px;
+        background: #eee;
+    }
+    
+    li .con {
+        margin-bottom: 10px;
+        width: 100%;
+        overflow: auto;
+        text-align: right;
+        /*background: #eee;*/
+    }
+    
+    li .scroll {
+        height: 180px;
+        margin-bottom: 10px;
+        width: 1500px;
+    }
+    
+    li h2 {
+        text-align: center;
+    }
+    
+    .ddd {
+        background: #fe2;
+        font-size: 22px;
+        height: 300px;
+    }
+    
+    .lock {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        background: #2f2;
+        font-size: 20px;
+        padding: 10px;
+        z-index: 3;
+        color: #fff;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="lock">滑动状态</div>
+    <ul class="list">
+        <li>
+            <div class="con">
+                <div class="scroll" id="main"></div>
+            </div>
+            <h2>这是标题1</h2>
+        </li>
+        <li>
+            <div class="con">
+                <div class="scroll" id="main2"></div>
+            </div>
+            <h2>这是标题2</h2>
+        </li>
+        <li>
+            <div class="con">
+                <div class="scroll" id="main3"></div>
+            </div>
+            <h2>这是标题3</h2>
+        </li>
+        <li>
+            <div class="con">
+                <div class="scroll" id="main4"></div>
+            </div>
+            <h2>这是标题4</h2>
+        </li>
+        <li>
+            <div class="con">
+                <div class="scroll" id="main5"></div>
+            </div>
+            <h2>这是标题5</h2>
+        </li>
+    </ul>
+    <script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
+    <script src="https://cdn.bootcss.com/gsap/1.19.0/TweenMax.min.js"></script>
+    <script src="https://cdn.bootcss.com/gsap/1.19.0/plugins/ScrollToPlugin.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript">
+    var isLock = false;
+
+    // 路径配置
+    require.config({
+        paths: {
+            echarts: 'http://echarts.baidu.com/build/dist'
+        }
+    });
+
+    // 使用
+    require(
+        [
+            'echarts',
+            'echarts/chart/line' // 使用柱状图就加载bar模块，按需加载
+        ],
+        function(ec) {
+            // 基于准备好的dom，初始化echarts图表
+            var myChart = ec.init(document.getElementById('main'));
+            var myChart2 = ec.init(document.getElementById('main2'));
+            var myChart3 = ec.init(document.getElementById('main3'));
+            var myChart4 = ec.init(document.getElementById('main4'));
+            var myChart5 = ec.init(document.getElementById('main5'));
+
+            option = {
+
+                grid: {
+                    x: 16,
+                    y: 1,
+                    x2: 16,
+                    y2: 40,
+                    borderWidth: 0
+                },
+                calculable: true,
+                xAxis: [{
+                    type: 'category',
+                    splitLine: {
+                        show: false
+                    },
+                    axisLine: {
+                        show: false
+                    },
+                    axisLabel: {
+                        interval: 0,
+                        textStyle: {
+                            color: '#408080'
+                        }
+                    },
+                    boundaryGap: false,
+                    data: [
+                        '周一\n08/14',
+                        '周二\n08/15',
+                        '周三\n08/16',
+                        '周四\n08/17',
+                        '周五\n08/18',
+                        '周六\n08/19',
+                        '周日\n08/20',
+
+                        '周一\n08/21',
+                        '周二\n08/22',
+                        '周三\n08/23',
+                        '周四\n08/24',
+                        '周五\n08/25',
+                        '周六\n08/26',
+                        '周日\n08/27',
+
+                        '周一\n08/28',
+                        '周二\n08/29',
+                        '周三\n08/30',
+                        '周四\n08/31',
+                        '周五\n09/01',
+                        '周六\n09/02',
+                        '周日\n09/03'
+                    ]
+                }],
+                yAxis: [{
+                    type: 'value',
+                    splitLine: {
+                        lineStyle: {
+                            color: '#efefef'
+                        }
+                    },
+                    axisLine: {
+                        show: false
+                    },
+                    axisLabel: {
+                        show: false
+                    }
+                }],
+                series: [{
+                    name: '金额',
+                    type: 'line',
+                    symbol: "emptyCircle",
+                    symbolSize: 6,
+                    smooth: true,
+                    data: [
+                        311, 11, 35, 33, 112, 43, 10,
+                        11, 41, 75, 133, 12, 20, 10,
+                        11, 22, 75, 23, 22, 236, 20
+
+                    ],
+                    itemStyle: {
+                        normal: {
+                            color: '#ff0000', //点的颜色
+                            lineStyle: {
+                                color: '#8000ff'
+                            }, //线条颜色
+                            label: {
+                                show: true,
+                                textStyle: {
+                                    fontSize: 16
+                                }
+                            }
+                        }
+                    }
+
+                }]
+            };
+
+
+
+            // 为echarts对象加载数据 
+            myChart.setOption(option);
+            myChart2.setOption(option);
+            myChart3.setOption(option);
+            myChart4.setOption(option);
+            myChart5.setOption(option);
+
+
+        }
+    );
+
+    TweenMax.to(".con", 1, {
+        scrollTo: {
+            x: 1300
+        },
+        delay: 3
+    });
+
+    initLock(isLock);
+    $('.lock').click(function(event) {
+        isLock = !isLock;
+        initLock(isLock);
+    });
+
+    function initLock(boo) {
+        isLock = boo;
+        if (boo) {
+            $(".lock").text("子图表不能横向滑动").css("background-color", "red");
+            $('.con').css("overflow", "hidden");
+        } else {
+            $(".lock").text("子图表可以横向滑动").css("background-color", "green");
+            $('.con').css("overflow", "auto");
+        }
+    }
+
+    var resizeTimer = null;
+
+    $(window).on('scroll', function() {
+        initLock(1);
+        if (resizeTimer) {
+            clearTimeout(resizeTimer)
+        }
+        resizeTimer = setTimeout(function() {
+            initLock(0);
+
+        }, 1000);
+    });
+    </script>
+</body>
