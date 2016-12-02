@@ -1,0 +1,1764 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"vu",
+				"vue.min.js"
+			],
+			[
+				"se",
+				"numSelctSort"
+			],
+			[
+				"select",
+				"selectItem"
+			],
+			[
+				"srot",
+				"sortCurrent"
+			],
+			[
+				"jq",
+				"jQuery.ajax	jQuery.ajax"
+			],
+			[
+				"wl",
+				"wl_sort.json"
+			],
+			[
+				"i",
+				"images/"
+			],
+			[
+				"boo",
+				"bootstrap-gtreetable2.1.js"
+			],
+			[
+				"bootstrap-g",
+				"bootstrap-gtreetable/"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"a",
+				"alloy_finger.js"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"uni",
+				"unit_w"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"si",
+				"siblings	.siblings()"
+			],
+			[
+				"add",
+				"addClass	addClass"
+			],
+			[
+				"dr",
+				"DrawSVGPlugin.min.js"
+			],
+			[
+				"m",
+				"MorphSVGPlugin.min.js"
+			],
+			[
+				"ad",
+				"addClass	addClass"
+			],
+			[
+				"h",
+				"height	Attr"
+			],
+			[
+				"attr",
+				"attr	.attr() - single"
+			],
+			[
+				"j",
+				"jquery.esn.autobrowse.js"
+			],
+			[
+				"cre",
+				"create5b.html"
+			],
+			[
+				"cr",
+				"create5.html"
+			],
+			[
+				"pag",
+				"page_all"
+			],
+			[
+				"load",
+				"load	.load()"
+			],
+			[
+				"lo",
+				"load	.load"
+			],
+			[
+				"see",
+				"seek_list.html"
+			],
+			[
+				"ce",
+				"create_list.html"
+			],
+			[
+				"t",
+				"translate()"
+			],
+			[
+				"jp",
+				"cr1.jpg	w:251 h:252"
+			],
+			[
+				"PNG",
+				"i2.png	w:8 h:13"
+			],
+			[
+				"ico",
+				"icos2.png	w:356 h:28"
+			],
+			[
+				"fa",
+				"fadeOut	.fadeOut()"
+			],
+			[
+				"on",
+				"on	.on()"
+			],
+			[
+				"b",
+				"bczy.png	w:226 h:45"
+			],
+			[
+				"btn",
+				"btn2.png	w:218 h:105"
+			],
+			[
+				"wk",
+				"wkDeposit"
+			],
+			[
+				"arr",
+				"arrSelect"
+			],
+			[
+				"is",
+				"isVisible"
+			],
+			[
+				"fade",
+				"fadeIn	.fadeIn()"
+			],
+			[
+				"sear",
+				"searchTxt"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"test",
+				"TEST_PASS"
+			],
+			[
+				"ea",
+				"each	.each()"
+			],
+			[
+				"slide",
+				"slideUp	.slideUp()"
+			],
+			[
+				"has",
+				"hasClass	.hasClass"
+			],
+			[
+				"close",
+				"closeWrap"
+			],
+			[
+				"pa",
+				"parents	.parents()"
+			],
+			[
+				"rep",
+				"repeat-x"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"inde",
+				"indexV2.html"
+			],
+			[
+				"my",
+				"myV2.html"
+			],
+			[
+				"back",
+				"backUrl"
+			],
+			[
+				"goo",
+				"goodsDetailV2.html"
+			],
+			[
+				"c",
+				"cookies.js"
+			],
+			[
+				"regis",
+				"registerForm"
+			],
+			[
+				"vm_lo",
+				"vm_login"
+			],
+			[
+				"vm",
+				"vm_login"
+			],
+			[
+				"op",
+				"openWinRegister"
+			],
+			[
+				"vm_",
+				"vm_main"
+			],
+			[
+				"r",
+				"rx4.0.8.min.js"
+			],
+			[
+				"tra",
+				"transform"
+			],
+			[
+				"tr",
+				"transform"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"isA",
+				"isActive"
+			],
+			[
+				"ta",
+				"table-cell"
+			],
+			[
+				"lt",
+				"lt50	left:50%; top:50%;"
+			],
+			[
+				"order",
+				"orderState.html"
+			],
+			[
+				"or",
+				"orderState.html"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"bx",
+				"bxsh	box-shadow: ${1:inset }${2:hoff} ${3:voff} ${4:blur} ${5:color};"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"f",
+				"function"
+			],
+			[
+				"fea",
+				"featureSelect"
+			],
+			[
+				"slideD",
+				"slideDown	.slideDown()"
+			],
+			[
+				"json",
+				"jsonName"
+			],
+			[
+				"the",
+				"theVm"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"end",
+				"endPage"
+			],
+			[
+				"bgsz",
+				"bgsz-ct	background-size: contain;"
+			],
+			[
+				"ma",
+				"max-height"
+			],
+			[
+				"app",
+				"append	.append"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"ch",
+				"children	.children()"
+			],
+			[
+				"page",
+				"pageUrl"
+			],
+			[
+				"get",
+				"get	$.get()"
+			],
+			[
+				"clic",
+				"click	.click()"
+			],
+			[
+				"list_p",
+				"list_prod"
+			],
+			[
+				"al",
+				"alt	Attr"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"msh",
+				"ms-href	bind"
+			],
+			[
+				"inn",
+				"innerHeight	.innerHeight"
+			],
+			[
+				"tit",
+				"title"
+			],
+			[
+				"mson",
+				"ms-on-${1:event}	bind"
+			],
+			[
+				"msc",
+				"ms-controller	bind"
+			],
+			[
+				"blo",
+				"inline-block"
+			],
+			[
+				"tw",
+				"TweenMax"
+			],
+			[
+				"mscl",
+				"ms-class	bind"
+			],
+			[
+				"fl",
+				"flex"
+			],
+			[
+				"wi",
+				"width	.width"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"hei",
+				"height1"
+			],
+			[
+				"win",
+				"win_h"
+			],
+			[
+				"mscss",
+				"ms-class	bind"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"sub",
+				"sub_total"
+			],
+			[
+				"msat",
+				"ms-attr	bind"
+			],
+			[
+				"ms-a",
+				"ms-attr	bind"
+			],
+			[
+				"msatt",
+				"ms-attr-${1:pname}	bind"
+			],
+			[
+				"msre",
+				"ms-repeat	bind"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"sli",
+				"slideDown	.slideDown()"
+			],
+			[
+				"to",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"tree",
+				"treeObj"
+			],
+			[
+				"in",
+				"innerHeight	.innerHeight"
+			],
+			[
+				"min-h",
+				"min-height"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"mouse",
+				"mouseover	mouseover"
+			],
+			[
+				"event_",
+				"event_show"
+			],
+			[
+				"bd",
+				"border"
+			],
+			[
+				"slid",
+				"slideUp	.slideUp()"
+			],
+			[
+				"sc",
+				"scrollLeft	.scrollLeft()"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/D/app/gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 1400,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "2016/leanCloud_demo1/login/login.html",
+			"settings":
+			{
+				"buffer_size": 1810,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<p>\n	联系电话：0635-6179881</p>\n<p>\n	地址：东阿县铜鱼路路东</p>\n<p>\n	邮编：252200</p>\n",
+			"settings":
+			{
+				"buffer_size": 67,
+				"line_ending": "Windows",
+				"name": "<p>"
+			}
+		},
+		{
+			"file": "/D/2016-2/优特咨询-Wechat/app_yt/gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 2439,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/app/leanCloud_demo1/login/login.js",
+			"settings":
+			{
+				"buffer_size": 530,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"tag",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"COLO",
+				"Color Picker"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			]
+		],
+		"width": 424.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/app",
+		"/D/app/csdudu.github.io",
+		"/D/app/csdudu.github.io/2016",
+		"/D/app/csdudu.github.io/2016/leanCloud_demo1",
+		"/D/app/csdudu.github.io/2016/leanCloud_demo1/login"
+	],
+	"file_history":
+	[
+		"/D/app/leanCloud_demo1/signup/signup.html",
+		"/D/app/leanCloud_demo1/products-list/products-list.html",
+		"/D/app/leanCloud_demo1/login/login.html",
+		"/D/app/leanCloud_demo1/new-product/new-product.html",
+		"/D/app/leanCloud_demo1/reuseMethods.js",
+		"/D/app/leanCloud_demo1/initLeanCloud.js",
+		"/D/与争/csdudu.github.io/index.html",
+		"/D/与争/csdudu.github.io/CNAME",
+		"/D/js/2015/iscroll-master/build/iscroll.js",
+		"/D/2016-2/优特咨询-Wechat/app_yt/boot/test_height_auto.html",
+		"/D/2016-2/优特咨询-Wechat/app_yt/wx_ui/README.md",
+		"/D/2016-2/优特咨询-Wechat/app_yt/cz/common.css",
+		"/D/2016-2/优特咨询-Wechat/app_yt/cz/font/iconfont.css",
+		"/D/2016-2/优特咨询-Wechat/app_yt/cz/index.html",
+		"/D/js/2015/iscroll-master/demos/bounce-easing/index.html",
+		"/C/Users/lenovo/Desktop/vue-touch-master/example/index.html",
+		"/C/Users/lenovo/Desktop/vue-touch-master/vue-touch.js",
+		"/D/2016-2/优特咨询-Wechat/app_yt/cz/a.html",
+		"/C/Users/lenovo/Desktop/vue-touch-master/example/example.js",
+		"/D/2016-2/优特咨询-Wechat/app_yt/boot/p2-1.html",
+		"/D/2016-2/优特咨询-Wechat/app_yt/boot/p1-1-1.html",
+		"/D/2016-2/优特咨询-Wechat/app_yt/boot/test_focus.html",
+		"/D/2016-2/优特咨询-Wechat/app_yt/boot/map.html",
+		"/D/2016-2/优特咨询-Wechat/app_yt/boot/input_file.html",
+		"/D/2016-2/优特咨询-Wechat/app_yt/cz/reset.css",
+		"/D/2016-2/优特咨询-Wechat/app_yt/boot/p3-13.html",
+		"/C/tools/sb3/Data/Packages/User/cssrem.sublime-settings",
+		"/D/2016-2/优特咨询-Wechat/app_yt/src/js/adapter.js",
+		"/D/2016-2/优特咨询-Wechat/app_yt/boot/test_ajax.html",
+		"/D/2016-2/优特咨询-Wechat/app_yt/boot/plugins/jquery.min.js",
+		"/D/2015-2/撷果软件/webs/round.html",
+		"/D/2016-2/优特咨询-Wechat/app_yt/boot/json/wl_sort.json",
+		"/D/2016-2/优特咨询-Wechat/app_yt/src/html/goods.html",
+		"/D/基数-沃氪星球/v2html/js/common.js",
+		"/D/2016-2/优特咨询-Wechat/app_yt/boot/router.js",
+		"/D/2016-2/优特咨询-Wechat/app_yt/gulpfile.js",
+		"/D/2016-2/优特咨询-Wechat/app_yt/boot/sftp-config.json",
+		"/D/2016-2/楚明华医药/webs/gulpfile.js",
+		"/D/2016-2/优特咨询-Wechat/app_yt/package.json",
+		"/D/2016-2/优特咨询-Wechat/app_yt/boot/mock.html",
+		"/D/2016-2/优特咨询-Wechat/app_yt/router.js",
+		"/D/2016-2/优特咨询-Wechat/app_yt/boot/admin/layout4/css/layout.css",
+		"/D/2016-2/优特咨询-Wechat/app_yt/boot/json/wl_list.json",
+		"/D/基数-沃氪星球/v2html/js/index.js",
+		"/D/2016-2/优特咨询-Wechat/app_yt/node_modules/server-mock/bin/server",
+		"/D/2016-2/优特咨询-Wechat/app_yt/boot/server-mock-master/bin/server",
+		"/D/2016-2/优特咨询-Wechat/app_yt/node_modules/server-mock/lib/app.js",
+		"/D/2016-2/优特咨询-Wechat/app_yt/node_modules/server-mock/lib/router.js",
+		"/D/2016-2/优特咨询-Wechat/app_yt/node_modules/server-mock/lib/command.js",
+		"/D/2016-2/优特咨询-Wechat/app_yt/node_modules/server-mock/package.json",
+		"/D/2016-2/优特咨询-Wechat/app_yt/boot/server-mock-master/sample/router.js",
+		"/D/2016-2/优特咨询-Wechat/app_yt/boot/css/iconfont.css",
+		"/D/2016-2/优特咨询-Wechat/app_yt/src/index.html",
+		"/D/与争/258754.cn/erp/index.html",
+		"/D/2016-2/优特咨询-Wechat/app_yt/boot/admin/layout4/scripts/layout.js",
+		"/D/2016-1/跨界联2016网站/unionroom.cn/reset.css",
+		"/D/2016-2/优特咨询-Wechat/app_yt/boot/demo.json",
+		"/D/2016-1/金圣达空中医院/查询PC端页面/webs/assets/css/my.css",
+		"/D/2016-1/金圣达空中医院/查询PC端页面/webs/detail.html",
+		"/D/2016-1/金圣达空中医院/查询PC端页面/webs/video.html",
+		"/D/2015-2/撷果软件/登录页Webs/index.htm",
+		"/D/2016-2/优特咨询-Wechat/app_yt/boot/Index.asp",
+		"/D/2016-2/优特咨询-Wechat/app_yt/boot/admin/pages/scripts/table-tree.js",
+		"/D/2016-2/优特咨询-Wechat/app_yt/boot/scripts/metronic.js",
+		"/D/2016-2/优特咨询-Wechat/app_yt/boot/plugins/bootstrap-gtreetable/bootstrap-gtreetable.js",
+		"/D/2016-2/优特咨询-Wechat/app_yt/boot/admin/layout4/scripts/demo.js",
+		"/D/2016-2/优特咨询-Wechat/app_yt/public/css/reset.css",
+		"/D/2016-2/优特咨询-Wechat/app_yt/boot/ecommerce_index.html",
+		"/D/2016-2/优特咨询-Wechat/app_yt/boot/plugins/flot/jquery.flot.resize.js",
+		"/D/2016-2/优特咨询-Wechat/app_yt/public/json/test.json",
+		"/D/2016-1/美多啦APP/app/src/html/tabs.html",
+		"/D/2016-2/优特咨询-Wechat/app_yt/src/html/demo.html",
+		"/D/2016-2/优特咨询-Wechat/app_yt/src/sass/index.scss",
+		"/D/2016-2/优特咨询-Wechat/app_yt/src/css/iconfont.css",
+		"/D/2016-2/优特咨询-Wechat/app_yt/src/sass/reset.scss",
+		"/D/2016-2/优特咨询-Wechat/app_yt/src/js/flexible.js",
+		"/D/基数-沃氪星球/wkMobile/html/myCartV2.html",
+		"/D/2016-2/优特咨询-Wechat/app_yt/src/router.js",
+		"/D/2016-2/优特咨询-Wechat/app_yt/public/html/goods.html",
+		"/D/2016-2/优特咨询-Wechat/app_yt/src/user.ejs",
+		"/D/2016-2/优特咨询-Wechat/app_yt/src/html/test_vue_resource.html",
+		"/D/2016-2/优特咨询-Wechat/app_yt/public/sftp-config.json",
+		"/D/2016-2/优特咨询-Wechat/app_yt/public/html/test_vue_resource.html",
+		"/D/2016-2/优特咨询-Wechat/app_yt/public/test.json",
+		"/D/2016-2/优特咨询-Wechat/app_yt/src/html/test.json",
+		"/D/2016-2/优特咨询-Wechat/app_yt/src/html/temp.html",
+		"/D/2016-2/优特咨询-Wechat/app_yt/public/js/adapter.js",
+		"/D/迅雷下载/私人空间/aaa.torrent",
+		"/D/2016-1/魔兽专题设计/webs/index.html",
+		"/D/2016-1/魔兽专题设计/webs/index_vue.html",
+		"/D/2016-2/优特咨询-Wechat/app_yt/src/js/alloy_finger.js",
+		"/D/2016-2/优特咨询-Wechat/app_yt/src/html/index.html",
+		"/C/tools/sb3/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/D/2016-2/优特咨询-Wechat/app_yt/src/temp.html",
+		"/D/迅雷下载/m.p.js",
+		"/D/2016-2/优特咨询-Wechat/app_yt/public/css/iconfont.css",
+		"/D/2016-2/优特咨询-Wechat/app_yt/src/css/weui.css",
+		"/D/2016-2/优特咨询-Wechat/app_yt/src/js/vue.min.js",
+		"/D/2016-1/美多啦APP/app/gulpfile.js",
+		"/D/2016-1/vue/my_dudu/package.json",
+		"/D/2016-1/美多啦APP/app/public/html/chart2.html",
+		"/D/2016-1/美多啦APP/app/public/html/chart.html",
+		"/D/2016-1/美多啦APP/app/LUploader/index.html",
+		"/D/2016-1/美多啦APP/app/src/html/test_es6.html",
+		"/D/2016-1/美多啦APP/app/src/html/test_bottom_fixed.html",
+		"/D/2016-1/美多啦APP/app/public/js/echarts.min.js",
+		"/D/2016-1/美多啦APP/app/src/js/aaa.js",
+		"/D/2016-1/美多啦APP/app/src/js/echarts.min.js",
+		"/D/2016-1/美多啦APP/app/src/html/aaa.html",
+		"/D/2016-1/美多啦APP/app/public/js/aaa.js",
+		"/D/2016-1/美多啦APP/app/public/js/test_es6.js",
+		"/D/2016-1/美多啦APP/app/src/js/test_es6.js",
+		"/D/2016-1/美多啦APP/任务五/quan/clinic_report_boss.html",
+		"/D/2016-1/西联观盛/www.xl-gs.com/js/common.js",
+		"/D/2016-1/美多啦APP/app/mdl.bat",
+		"/D/2016-1/vue/dudu2/package.json",
+		"/D/2016-1/vue/vue-tutorial/package.json",
+		"/D/2016-1/vue/vue-loader-example-master/package.json",
+		"/D/2016-1/vue/vue-tutorial/build/dev-server.js",
+		"/D/2016-1/vue/vue-tutorial/build/build.js",
+		"/D/2016-1/vue/js_test/package.json",
+		"/D/2016-1/vue/js_test/node_modules/vue/package.json",
+		"/D/2016-1/vue/js_test/node_modules/autoprefixer/package.json",
+		"/D/2016-1/vue/package.json",
+		"/D/2016-1/美多啦APP/app/public/css/iconfont.css",
+		"/D/2016-1/美多啦APP/app/public/html/demo.css",
+		"/D/2016-1/美多啦APP/app/public/css/hotel.css",
+		"/D/2016-1/美多啦APP/app/src/sass/hotel.scss"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"D:\\2016-1\\跨界联2016网站\\unionroom.cn",
+			"D:\\v2html\\a\\static\\html,D:\\基数-沃氪星球\\matrix-admin",
+			"D:\\v2html\\a\\static\\html",
+			"D:\\v2html\\a\\test\\aaa"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" &nbsp; &nbsp; &nbsp;",
+			"div",
+			"\\",
+			"../../../plugins/bootstrap/",
+			"pushToList",
+			"btn_keyboard",
+			"font-size",
+			"语音信息的编号（不可见的）",
+			"-webkit-",
+			"pushToList",
+			"left",
+			".share_tabs .pop h3",
+			"v-for",
+			"demo",
+			"我  17",
+			"老郭(75214609)",
+			"郭阳",
+			"杜骋翔(258754)",
+			"isInputEmpty",
+			"isIcoShow",
+			"showIco",
+			"width",
+			"contain",
+			"cover",
+			"class=\"btn\"",
+			"h1",
+			"750",
+			"720",
+			"../",
+			"vue",
+			"test",
+			"checked",
+			"test",
+			"height: 100px;",
+			"float: left;",
+			"z-index: 2;",
+			"top",
+			"物料编号",
+			"\"map",
+			"map",
+			"amap-container",
+			"mapContainer",
+			"wrap",
+			"my-map",
+			"wrap",
+			"mapContainer",
+			"my-map",
+			"map",
+			"src=\"//",
+			"form",
+			"numPage",
+			"getWlId",
+			"物料编号",
+			"modal",
+			"isAddWl",
+			"新增",
+			"<img src=\"",
+			"selectImg",
+			"onFileChange",
+			"selectImg",
+			"addPic",
+			"-->",
+			"uploadImage",
+			"removeImage",
+			"onFileChange",
+			"\"",
+			"Remark",
+			"v-model=\"",
+			"MaterName",
+			"model_edit_wl",
+			"modal_edit_wl",
+			"model_edit_wl",
+			"model_add_wl",
+			"modal_del_wl",
+			"getWlId",
+			"SmallestUnitID",
+			"SalePrice",
+			"MaterName",
+			"isSaveItemSuccess",
+			"readyGetWl",
+			"readyDelWl",
+			"numReadyWl",
+			"readyDelWl",
+			"numHoverWl",
+			"delWl",
+			"modal_del_wl",
+			"modal_wl_sort",
+			"modal_del_sort",
+			"numHoverWl",
+			"model_del",
+			"model_del_sort",
+			"model_del",
+			"getList",
+			"numSelctSort",
+			"numSelectSort",
+			"numSelctSort",
+			"numSelectSort",
+			"numSelctSort",
+			"numSelectSort",
+			"getList",
+			"numSelctSort",
+			"getList",
+			"table_wl2",
+			":class",
+			"v-class",
+			"sort",
+			"sort_id",
+			"getList",
+			"numCurrentSelctSort",
+			"isEditCurrent",
+			"numHoverSort",
+			"hoverCurrent",
+			"getList",
+			"numListTotal",
+			"numPage",
+			"console",
+			"numPage",
+			"getList",
+			"isLoading",
+			"getList",
+			"sortCurrent",
+			"getList",
+			"delSort",
+			"editSort",
+			"selectItem",
+			"editSort",
+			"indaaaex",
+			"getList"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\n						<div class=\"tit\"><span>使用第三方帐号登录</span><i></i></div>\n<button id=\"btnWeixinLogin\"><i class=\"iconfont icon-weixin\"></i> 微信登录</button>",
+			"<a href=\"forget.html\">忘记密码</a>\n						<div class=\"tit\"><span>使用第三方帐号登录</span><i></i></div>\n<button id=\"btnWeixinLogin\"><i class=\"iconfont icon-weixin\"></i> 微信登录</button>",
+			"<button @tap=\"login\">登录</button>\n						<div class=\"tit\"><span>使用第三方帐号登录</span><i></i></div>\n<button id=\"btnWeixinLogin\"><i class=\"iconfont icon-weixin\"></i> 微信登录</button>",
+			"<button @tap=\"login\">登录</button>\n						<div class=\"tit\"><span>使用第三方帐号登录</span><i></i></div>\n						<button class=\".mui-icon iconfont icon-weixin\" id=\"btnWeixinLogin\"> 微信登录</button>",
+			"<input v-model=\"loginForm.id\" type=\"tel\" name=\"tel\" class=\"mui-input-clear\"",
+			"<input type=\"tel\" name=\"tel\" class=\"mui-input-clear\"",
+			"<input type=\"number\" name=\"number\" class=\"mui-input-clear\"",
+			"<input v-model=\"loginForm.id\" type=\"tel\"",
+			"<input type=\"tel\" class=\"mui-input-clear\" placeholder=\"请输入手机号\"",
+			"ccc",
+			"Img/",
+			"db",
+			"ES",
+			"]]> </title>",
+			"<title> <![CDATA[",
+			"]]> </title>",
+			"<title> <![CDATA[",
+			" pageId=",
+			"]]> </entry>",
+			"<![CDATA[",
+			"\">",
+			"<entry type=\"page\"pageId=\"",
+			"",
+			"</td>",
+			"<td>",
+			"</th>",
+			"th>",
+			"模特",
+			"bask1",
+			"这个点的长沙真是最舒服，开车到哪里都是畅通无阻。"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "D:\\app"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/D/app/gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1400,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								394,
+								395
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"origin_encoding": "UTF-8",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/jQuery-master/jQuery-master/Syntaxes/jQueryJavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "2016/leanCloud_demo1/login/login.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1810,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								827,
+								827
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"origin_encoding": "UTF-8",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 67,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								67
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<p>",
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "/D/2016-2/优特咨询-Wechat/app_yt/gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2439,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								208,
+								142
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"origin_encoding": "UTF-8",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/jQuery-master/jQuery-master/Syntaxes/jQueryJavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1672.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/D/app/leanCloud_demo1/login/login.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 530,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								373,
+								373
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"origin_encoding": "UTF-8",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/jQuery-master/jQuery-master/Syntaxes/jQueryJavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.676121930567,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"test_aj",
+				"boot\\test_ajax.html"
+			],
+			[
+				"res",
+				"cz\\reset.css"
+			],
+			[
+				"p3-1",
+				"boot\\p3-13.html"
+			],
+			[
+				"pluginjquer",
+				"boot\\plugins\\jquery.min.js"
+			],
+			[
+				"test",
+				"boot\\test_ajax.html"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"rou",
+				"boot\\router.js"
+			],
+			[
+				"jsonsor",
+				"boot\\json\\wl_sort.json"
+			],
+			[
+				"icon",
+				"boot\\css\\iconfont.css"
+			],
+			[
+				"p1-1",
+				"boot\\p1-1-1.html"
+			],
+			[
+				"layout4lay",
+				"boot\\admin\\layout4\\css\\layout.css"
+			],
+			[
+				"index.asp",
+				"boot\\Index.asp"
+			],
+			[
+				"table-tr",
+				"boot\\admin\\pages\\scripts\\table-tree.js"
+			],
+			[
+				"gtr",
+				"boot\\plugins\\bootstrap-gtreetable\\bootstrap-gtreetable.js"
+			],
+			[
+				"gtree",
+				"boot\\plugins\\bootstrap-gtreetable\\bootstrap-gtreetable.js"
+			],
+			[
+				"metron",
+				"boot\\scripts\\metronic.js"
+			],
+			[
+				"layout4demo",
+				"boot\\admin\\layout4\\scripts\\demo.js"
+			],
+			[
+				"layout.js",
+				"boot\\admin\\layout4\\scripts\\layout.js"
+			],
+			[
+				"jquery.flot.r",
+				"boot\\plugins\\flot\\jquery.flot.resize.js"
+			],
+			[
+				"jsal",
+				"src\\js\\alloy_finger.js"
+			],
+			[
+				"srcindex.htm",
+				"src\\html\\index.html"
+			],
+			[
+				"srcreset",
+				"src\\sass\\reset.scss"
+			],
+			[
+				"a",
+				"public\\js\\adapter.js"
+			],
+			[
+				"chart",
+				"public\\html\\chart.html"
+			],
+			[
+				"srcchart",
+				"src\\html\\chart2.html"
+			],
+			[
+				"chart2",
+				"public\\html\\chart2.html"
+			],
+			[
+				"echart",
+				"public\\js\\echarts.min.js"
+			],
+			[
+				"nav",
+				"src\\html\\nav_main.html"
+			],
+			[
+				"test_es",
+				"src\\html\\test_es6.html"
+			],
+			[
+				"tes",
+				"src\\html\\test_es6.html"
+			],
+			[
+				"tabs",
+				"public\\html\\tabs.html"
+			],
+			[
+				"publicicon",
+				"public\\css\\iconfont.css"
+			],
+			[
+				"publicdemo",
+				"public\\html\\demo.css"
+			],
+			[
+				"cssicon",
+				"public\\css\\iconfont.css"
+			],
+			[
+				"csshote",
+				"public\\css\\hotel.css"
+			],
+			[
+				"jquery.in",
+				"public\\html\\jquery.min.js"
+			],
+			[
+				"test.js",
+				"public\\test.js"
+			],
+			[
+				"testj.",
+				"public\\test.js"
+			],
+			[
+				"reset",
+				"src\\sass\\reset.scss"
+			],
+			[
+				"jquer",
+				"public\\js\\jquery-weui.min.js"
+			],
+			[
+				"weui",
+				"src\\css\\weui.css"
+			],
+			[
+				"reset.css",
+				"public\\css\\reset.css"
+			],
+			[
+				"hotel.sc",
+				"src\\sass\\hotel.scss"
+			],
+			[
+				"hote",
+				"public\\html\\hotel.html"
+			],
+			[
+				"weuicss",
+				"public\\css\\weui.min.css"
+			],
+			[
+				"jquerycss",
+				"public\\css\\jquery-weui.min.css"
+			],
+			[
+				"xh",
+				"src\\html\\file\\xHeader.html"
+			],
+			[
+				"comm",
+				"public\\js\\common.js"
+			],
+			[
+				"common.c",
+				"public\\css\\common2.css"
+			],
+			[
+				"creat",
+				"create.html"
+			],
+			[
+				"crea",
+				"create.html"
+			],
+			[
+				"seek",
+				"seek_list_bak.html"
+			],
+			[
+				"see",
+				"seek_list.html"
+			],
+			[
+				"e2",
+				"e2.html"
+			],
+			[
+				"e1",
+				"e1.html"
+			],
+			[
+				"seel",
+				"seek_list.html"
+			],
+			[
+				"hy",
+				"hywh.html"
+			],
+			[
+				"sm",
+				"smzx.html"
+			],
+			[
+				"czwh",
+				"czwh.html"
+			],
+			[
+				"lite",
+				"lite.html"
+			],
+			[
+				"c2.html",
+				"c2.html"
+			],
+			[
+				"cre",
+				"create5.html"
+			],
+			[
+				"c1",
+				"c1.html"
+			],
+			[
+				"cr",
+				"create5b.html"
+			],
+			[
+				"",
+				"reset.css"
+			],
+			[
+				"reset.",
+				"reset.css"
+			],
+			[
+				"cer",
+				"create.html"
+			],
+			[
+				"gr",
+				"grid1.html"
+			],
+			[
+				"jq",
+				"js\\jquery.hoverdir.js"
+			],
+			[
+				"li",
+				"lite.html"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"com",
+				"common.css"
+			],
+			[
+				"wk",
+				"css\\wkshop.css"
+			],
+			[
+				"order",
+				"html\\orderDetailV2.html"
+			],
+			[
+				"index.js",
+				"js\\index.js"
+			],
+			[
+				"mycar",
+				"html\\myCartV2.html"
+			],
+			[
+				"go",
+				"html\\goodsDetailV2.html"
+			],
+			[
+				"ico",
+				"css\\iconfont.css"
+			],
+			[
+				"scss",
+				"sass\\mywk.scss"
+			],
+			[
+				"index.c",
+				"sass\\index.scss"
+			],
+			[
+				"goods",
+				"html\\goodsDetailV2.html"
+			],
+			[
+				"myr",
+				"html\\myRecordV2.html"
+			],
+			[
+				"myorder",
+				"html\\myOrderV2.html"
+			],
+			[
+				"w",
+				"sass\\wkshop.scss"
+			],
+			[
+				"myre",
+				"html\\myRecordV2.html"
+			],
+			[
+				"myord",
+				"html\\myOrderV2.html"
+			],
+			[
+				"myc",
+				"html\\myCartV2.html"
+			],
+			[
+				"myv",
+				"html\\myV2.html"
+			],
+			[
+				"bin",
+				"html\\bind.html"
+			],
+			[
+				"my",
+				"html\\myV2.html"
+			],
+			[
+				"myca",
+				"html\\myCartV2.html"
+			],
+			[
+				"good",
+				"html\\goodsDetailV2.html"
+			],
+			[
+				"shop",
+				"css\\wkshop.css"
+			],
+			[
+				"iconfon",
+				"css\\iconfont.css"
+			],
+			[
+				"myv2.",
+				"html\\myV2.html"
+			],
+			[
+				"mycart",
+				"html\\myCartV2.html"
+			],
+			[
+				"myv2",
+				"html\\myV2.html"
+			],
+			[
+				"wks",
+				"css\\wkshop.css"
+			],
+			[
+				"for",
+				"html\\forget.html"
+			],
+			[
+				"test.html",
+				"html\\test.html"
+			],
+			[
+				"mywk",
+				"css\\mywk.css"
+			],
+			[
+				"wkshop",
+				"sass\\wkshop.scss"
+			],
+			[
+				"index.s",
+				"sass\\index.scss"
+			],
+			[
+				"se",
+				"html\\search.html"
+			],
+			[
+				"404",
+				"html\\404.html"
+			],
+			[
+				"myv2.h",
+				"html\\myV2.html"
+			],
+			[
+				"fon",
+				"css\\iconfont.css"
+			],
+			[
+				"myadd",
+				"html\\myAddressV2.html"
+			],
+			[
+				"wksho",
+				"css\\wkshop.css"
+			],
+			[
+				"indexv2",
+				"html\\indexV2.html"
+			],
+			[
+				"o",
+				"html\\orderStateV2.html"
+			],
+			[
+				"myor",
+				"html\\myOrderV2.html"
+			],
+			[
+				"getadd",
+				"v2html\\shopData\\getAddressList"
+			],
+			[
+				"myadd22",
+				"v2html\\html\\myAddressV22.html"
+			],
+			[
+				"myaddv",
+				"v2html\\html\\myAddressV2.html"
+			],
+			[
+				"indexv",
+				"v2html\\html\\indexV2.html"
+			],
+			[
+				"index.j",
+				"v2html\\js\\index.js"
+			],
+			[
+				"rx",
+				"wk_vue\\js\\vue-rx.js"
+			],
+			[
+				"test_rx",
+				"wk_vue\\html\\test_rx.html"
+			],
+			[
+				"index.",
+				"css\\index.css"
+			],
+			[
+				"my.html",
+				"html\\my.html"
+			],
+			[
+				"goo",
+				"html\\goods.html"
+			],
+			[
+				"htmlmycartjos",
+				"html\\shopData\\myCart.json"
+			],
+			[
+				"mycart.htm",
+				"html\\myCart_bak.html"
+			],
+			[
+				"htmlmyshop0",
+				"html\\shopData\\myShoping\\0"
+			],
+			[
+				"myshop0",
+				"shopData\\myShoping\\0"
+			],
+			[
+				"myshop",
+				"html\\myShoping.html"
+			],
+			[
+				"csscomm",
+				"css\\commonV2.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\2016-2\\楚明华医药\\webs\\福禄堂.sublime-workspace"
+			],
+			[
+				"test",
+				"D:\\2016-2\\test_svg\\test_svg.sublime-workspace"
+			],
+			[
+				"aaa",
+				"D:\\基数-沃氪星球\\aaa.sublime-project"
+			],
+			[
+				"bbb",
+				"D:\\基数-沃氪星球\\bbb.sublime-project"
+			],
+			[
+				"a",
+				"D:\\基数-沃氪星球\\aaa.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 201.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
