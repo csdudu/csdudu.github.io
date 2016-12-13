@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0" />
+    <title>时间</title>
+    <script src="../js/jquery3.min.js"></script>
+    <script src="../js/moment.min.js"></script>
+    <style></style>
+</head>
+
+<body>
+	<h1></h1>
+	<h2>还剩：<i></i>秒</h2>
+	<button>开始计时<span></span>秒</button>
+    <script>
+    var count = 5;
+    $('span').text(count);
+
+    $('button').click(function(event) {
+    	inittime(count);
+    });
+    
+
+    function inittime(argument) {
+    	var i=argument+1;
+    	var timer = setInterval(function() {
+    		i--;
+    	    $('h1').text(moment().format('hh:mm:ss'));
+    	    $('i').text(i);
+    	    if(i==0){clearInterval(timer);}
+    	}, 1000);
+    }
+    
+
+    
+    </script>
+</body>
+
+</html>

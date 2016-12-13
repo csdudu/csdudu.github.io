@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"fun",
+				"function"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"lh",
+				"line-height"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"a",
+				"autosize.min.js"
+			],
+			[
 				"vu",
 				"vue.min.js"
 			],
@@ -44,10 +64,6 @@
 				"min-width"
 			],
 			[
-				"a",
-				"alloy_finger.js"
-			],
-			[
 				"ov",
 				"overflow"
 			],
@@ -58,10 +74,6 @@
 			[
 				"uni",
 				"unit_w"
-			],
-			[
-				"fon",
-				"font-style"
 			],
 			[
 				"trans",
@@ -304,10 +316,6 @@
 				"bxsh	box-shadow: ${1:inset }${2:hoff} ${3:voff} ${4:blur} ${5:color};"
 			],
 			[
-				"fun",
-				"fun	Function"
-			],
-			[
 				"f",
 				"function"
 			],
@@ -506,14 +514,6 @@
 			[
 				"bd",
 				"border"
-			],
-			[
-				"slid",
-				"slideUp	.slideUp()"
-			],
-			[
-				"sc",
-				"scrollLeft	.scrollLeft()"
 			]
 		]
 	},
@@ -523,41 +523,64 @@
 			"file": "/D/app/gulpfile.js",
 			"settings":
 			{
-				"buffer_size": 1400,
+				"buffer_size": 1601,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "2016/leanCloud_demo1/login/login.html",
+			"file": "/D/app/wx_ui/index.html",
 			"settings":
 			{
-				"buffer_size": 1810,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "<p>\n	联系电话：0635-6179881</p>\n<p>\n	地址：东阿县铜鱼路路东</p>\n<p>\n	邮编：252200</p>\n",
-			"settings":
-			{
-				"buffer_size": 67,
-				"line_ending": "Windows",
-				"name": "<p>"
-			}
-		},
-		{
-			"file": "/D/2016-2/优特咨询-Wechat/app_yt/gulpfile.js",
-			"settings":
-			{
-				"buffer_size": 2439,
+				"buffer_size": 5413,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/D/app/leanCloud_demo1/login/login.js",
+			"file": "/D/app/wx_ui/gzrz.html",
 			"settings":
 			{
-				"buffer_size": 530,
+				"buffer_size": 4129,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/app/js_test/index2.html",
+			"settings":
+			{
+				"buffer_size": 368,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/lenovo/.gitconfig",
+			"settings":
+			{
+				"buffer_size": 532,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/app/wx_ui/js/autosize.js",
+			"settings":
+			{
+				"buffer_size": 7619,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/app/wx_ui/common.css",
+			"settings":
+			{
+				"buffer_size": 2790,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/app/wx_ui/reset.css",
+			"settings":
+			{
+				"buffer_size": 4281,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -622,13 +645,34 @@
 	"expanded_folders":
 	[
 		"/D/app",
-		"/D/app/csdudu.github.io",
-		"/D/app/csdudu.github.io/2016",
-		"/D/app/csdudu.github.io/2016/leanCloud_demo1",
-		"/D/app/csdudu.github.io/2016/leanCloud_demo1/login"
+		"/D/app/js_test"
 	],
 	"file_history":
 	[
+		"/D/app/js_test/index2.html",
+		"/D/app/wx_ui/test1.html",
+		"/D/app/wx_ui/index2.html",
+		"/D/app/csdudu.github.io/2016/leanCloud_demo1/login/login.js",
+		"/D/app/wx_ui/js/vue.min.js",
+		"/D/app/wx_ui/js/autosize.js",
+		"/D/2016-2/优特咨询-Wechat/app_yt/boot/p3-13.html",
+		"/D/app/csdudu.github.io/2016/leanCloud_demo1/products-list/products-list.html",
+		"/D/app/csdudu.github.io/2016/leanCloud_demo1/login/login.html",
+		"/D/app/sftp-config.json",
+		"/D/app/wx_ui/t.html",
+		"/D/app/wx_ui/2.html",
+		"/D/app/autosize-master/example/index.html",
+		"/D/app/autosize-master/dist/autosize.js",
+		"/D/app/wx_ui/webs.html",
+		"/D/app/wx_ui/jq.html",
+		"/D/app/wx_ui/README.md",
+		"/D/app/csdudu.github.io/2016/leanCloud_demo1/new-product/new-product.html",
+		"/D/app/wx_ui/server.js",
+		"/D/app/wx_ui/js/adapter.js",
+		"/C/tools/sb3/Data/Packages/User/cssrem.sublime-settings",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/app/leanCloud_demo1/login/login.js",
+		"/D/2016-2/优特咨询-Wechat/app_yt/gulpfile.js",
 		"/D/app/leanCloud_demo1/signup/signup.html",
 		"/D/app/leanCloud_demo1/products-list/products-list.html",
 		"/D/app/leanCloud_demo1/login/login.html",
@@ -654,8 +698,6 @@
 		"/D/2016-2/优特咨询-Wechat/app_yt/boot/map.html",
 		"/D/2016-2/优特咨询-Wechat/app_yt/boot/input_file.html",
 		"/D/2016-2/优特咨询-Wechat/app_yt/cz/reset.css",
-		"/D/2016-2/优特咨询-Wechat/app_yt/boot/p3-13.html",
-		"/C/tools/sb3/Data/Packages/User/cssrem.sublime-settings",
 		"/D/2016-2/优特咨询-Wechat/app_yt/src/js/adapter.js",
 		"/D/2016-2/优特咨询-Wechat/app_yt/boot/test_ajax.html",
 		"/D/2016-2/优特咨询-Wechat/app_yt/boot/plugins/jquery.min.js",
@@ -664,7 +706,6 @@
 		"/D/2016-2/优特咨询-Wechat/app_yt/src/html/goods.html",
 		"/D/基数-沃氪星球/v2html/js/common.js",
 		"/D/2016-2/优特咨询-Wechat/app_yt/boot/router.js",
-		"/D/2016-2/优特咨询-Wechat/app_yt/gulpfile.js",
 		"/D/2016-2/优特咨询-Wechat/app_yt/boot/sftp-config.json",
 		"/D/2016-2/楚明华医药/webs/gulpfile.js",
 		"/D/2016-2/优特咨询-Wechat/app_yt/package.json",
@@ -735,28 +776,7 @@
 		"/D/2016-1/美多啦APP/app/src/html/test_es6.html",
 		"/D/2016-1/美多啦APP/app/src/html/test_bottom_fixed.html",
 		"/D/2016-1/美多啦APP/app/public/js/echarts.min.js",
-		"/D/2016-1/美多啦APP/app/src/js/aaa.js",
-		"/D/2016-1/美多啦APP/app/src/js/echarts.min.js",
-		"/D/2016-1/美多啦APP/app/src/html/aaa.html",
-		"/D/2016-1/美多啦APP/app/public/js/aaa.js",
-		"/D/2016-1/美多啦APP/app/public/js/test_es6.js",
-		"/D/2016-1/美多啦APP/app/src/js/test_es6.js",
-		"/D/2016-1/美多啦APP/任务五/quan/clinic_report_boss.html",
-		"/D/2016-1/西联观盛/www.xl-gs.com/js/common.js",
-		"/D/2016-1/美多啦APP/app/mdl.bat",
-		"/D/2016-1/vue/dudu2/package.json",
-		"/D/2016-1/vue/vue-tutorial/package.json",
-		"/D/2016-1/vue/vue-loader-example-master/package.json",
-		"/D/2016-1/vue/vue-tutorial/build/dev-server.js",
-		"/D/2016-1/vue/vue-tutorial/build/build.js",
-		"/D/2016-1/vue/js_test/package.json",
-		"/D/2016-1/vue/js_test/node_modules/vue/package.json",
-		"/D/2016-1/vue/js_test/node_modules/autoprefixer/package.json",
-		"/D/2016-1/vue/package.json",
-		"/D/2016-1/美多啦APP/app/public/css/iconfont.css",
-		"/D/2016-1/美多啦APP/app/public/html/demo.css",
-		"/D/2016-1/美多啦APP/app/public/css/hotel.css",
-		"/D/2016-1/美多啦APP/app/src/sass/hotel.scss"
+		"/D/2016-1/美多啦APP/app/src/js/aaa.js"
 	],
 	"find":
 	{
@@ -778,6 +798,58 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"_this",
+			"s_top",
+			"s_hight",
+			":",
+			"★",
+			"(",
+			" [",
+			"(",
+			"[",
+			"this",
+			"input",
+			"EventListener",
+			"140",
+			"init",
+			"resize",
+			"style.hei",
+			"originalHeight",
+			"scrollHeight",
+			"endHeight",
+			"originalHeight",
+			"px",
+			"endHeight",
+			"height",
+			"41",
+			"resize",
+			"Resize",
+			"resize",
+			"Resize",
+			"resize",
+			"endHeight",
+			"px",
+			"height",
+			"Resize",
+			"resize",
+			"Resize",
+			"resize",
+			"Resize",
+			"resize",
+			"horizontal",
+			"resize",
+			"height",
+			"41",
+			"textarea",
+			"changeOverflow",
+			"hidde",
+			"overflow-y",
+			"twoWay",
+			"update",
+			"twoWay",
+			"vue",
+			"pushSound",
+			"js/",
 			" &nbsp; &nbsp; &nbsp;",
 			"div",
 			"\\",
@@ -853,59 +925,7 @@
 			"model_add_wl",
 			"modal_del_wl",
 			"getWlId",
-			"SmallestUnitID",
-			"SalePrice",
-			"MaterName",
-			"isSaveItemSuccess",
-			"readyGetWl",
-			"readyDelWl",
-			"numReadyWl",
-			"readyDelWl",
-			"numHoverWl",
-			"delWl",
-			"modal_del_wl",
-			"modal_wl_sort",
-			"modal_del_sort",
-			"numHoverWl",
-			"model_del",
-			"model_del_sort",
-			"model_del",
-			"getList",
-			"numSelctSort",
-			"numSelectSort",
-			"numSelctSort",
-			"numSelectSort",
-			"numSelctSort",
-			"numSelectSort",
-			"getList",
-			"numSelctSort",
-			"getList",
-			"table_wl2",
-			":class",
-			"v-class",
-			"sort",
-			"sort_id",
-			"getList",
-			"numCurrentSelctSort",
-			"isEditCurrent",
-			"numHoverSort",
-			"hoverCurrent",
-			"getList",
-			"numListTotal",
-			"numPage",
-			"console",
-			"numPage",
-			"getList",
-			"isLoading",
-			"getList",
-			"sortCurrent",
-			"getList",
-			"delSort",
-			"editSort",
-			"selectItem",
-			"editSort",
-			"indaaaex",
-			"getList"
+			"SmallestUnitID"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -959,7 +979,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -968,19 +988,20 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1400,
+						"buffer_size": 1601,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								394,
-								395
+								680,
+								680
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Blackboard.tmTheme",
 							"incomplete_sync": null,
 							"origin_encoding": "UTF-8",
 							"remote_loading": false,
@@ -993,35 +1014,105 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "2016/leanCloud_demo1/login/login.html",
+					"file": "/D/app/wx_ui/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1810,
+						"buffer_size": 5413,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								827,
-								827
+								1322,
+								1322
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Blackboard.tmTheme",
 							"incomplete_sync": null,
 							"origin_encoding": "UTF-8",
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 294.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/app/wx_ui/gzrz.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1157,
+								1157
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Blackboard.tmTheme",
+							"incomplete_sync": null,
+							"origin_encoding": "UTF-8",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/D/app/js_test/index2.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 368,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								340,
+								340
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Blackboard.tmTheme",
+							"incomplete_sync": null,
+							"origin_encoding": "UTF-8",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1031,26 +1122,30 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 4,
+					"file": "/C/Users/lenovo/.gitconfig",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 67,
+						"buffer_size": 532,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								67,
-								67
+								532,
+								355
 							]
 						],
 						"settings":
 						{
-							"auto_name": "<p>",
 							"incomplete_sync": null,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"origin_encoding": "UTF-8",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1062,67 +1157,101 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
-					"buffer": 3,
-					"file": "/D/2016-2/优特咨询-Wechat/app_yt/gulpfile.js",
+					"buffer": 5,
+					"file": "/D/app/wx_ui/js/autosize.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2439,
+						"buffer_size": 7619,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								208,
-								142
+								1143,
+								1143
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Blackboard.tmTheme",
 							"incomplete_sync": null,
-							"origin_encoding": "UTF-8",
+							"origin_encoding": "ASCII",
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/jQuery-master/jQuery-master/Syntaxes/jQueryJavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1672.0,
+						"translation.y": 680.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "/D/app/leanCloud_demo1/login/login.js",
+					"buffer": 6,
+					"file": "/D/app/wx_ui/common.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 530,
+						"buffer_size": 2790,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								373,
-								373
+								293,
+								301
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Blackboard.tmTheme",
 							"incomplete_sync": null,
 							"origin_encoding": "UTF-8",
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/jQuery-master/jQuery-master/Syntaxes/jQueryJavaScript.tmLanguage",
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/D/app/wx_ui/reset.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4281,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								152,
+								32
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Blackboard.tmTheme",
+							"incomplete_sync": null,
+							"origin_encoding": "UTF-8",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -1130,7 +1259,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -1164,7 +1293,7 @@
 		"cols":
 		[
 			0.0,
-			0.676121930567,
+			0.552909935442,
 			1.0
 		],
 		"rows":
@@ -1195,6 +1324,34 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"reset",
+				"wx_ui\\reset.css"
+			],
+			[
+				"index.ht",
+				"wx_ui\\index.html"
+			],
+			[
+				"index",
+				"wx_ui\\index.html"
+			],
+			[
+				"auto",
+				"autosize-master\\dist\\autosize.js"
+			],
+			[
+				"index.h",
+				"wx_ui\\index.html"
+			],
+			[
+				"wxui",
+				"wx_ui\\index.html"
+			],
+			[
+				"new",
+				"csdudu.github.io\\2016\\leanCloud_demo1\\new-product\\new-product.html"
+			],
 			[
 				"test_aj",
 				"boot\\test_ajax.html"
@@ -1348,10 +1505,6 @@
 				"public\\test.js"
 			],
 			[
-				"reset",
-				"src\\sass\\reset.scss"
-			],
-			[
 				"jquer",
 				"public\\js\\jquery-weui.min.js"
 			],
@@ -1474,10 +1627,6 @@
 			[
 				"li",
 				"lite.html"
-			],
-			[
-				"index",
-				"index.html"
 			],
 			[
 				"com",
@@ -1686,26 +1835,6 @@
 			[
 				"htmlmycartjos",
 				"html\\shopData\\myCart.json"
-			],
-			[
-				"mycart.htm",
-				"html\\myCart_bak.html"
-			],
-			[
-				"htmlmyshop0",
-				"html\\shopData\\myShoping\\0"
-			],
-			[
-				"myshop0",
-				"shopData\\myShoping\\0"
-			],
-			[
-				"myshop",
-				"html\\myShoping.html"
-			],
-			[
-				"csscomm",
-				"css\\commonV2.css"
 			]
 		],
 		"width": 0.0
@@ -1718,7 +1847,7 @@
 		[
 			[
 				"",
-				"D:\\2016-2\\楚明华医药\\webs\\福禄堂.sublime-workspace"
+				"D:\\2016-1\\跨界联2016网站\\kjl.sublime-workspace"
 			],
 			[
 				"test",
