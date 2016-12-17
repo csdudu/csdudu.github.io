@@ -18,7 +18,7 @@
         <ul>
             <li v-for="el in list">{{$index+1}}: {{el}}</li>
         </ul>
-        <input type="text" v-model="text">
+        <input type="text" v-model="text" placeholder="请在此随便填写数据">
         <button @click="add">添加到列表</button>
     </div>
 </body>
@@ -32,7 +32,10 @@ new Vue({
         text: ""
     },
     methods: {
-        add: function() {this.list.push(this.text); }
+        add: function() {
+            this.list.push(this.text); 
+            this.text=""; 
+        }
     }
 })
 </script>
